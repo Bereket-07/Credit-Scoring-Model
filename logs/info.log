@@ -1,0 +1,176 @@
+2024-10-03 11:20:36,467 - INFO - loading the data set into the pandas data frame
+2024-10-03 11:20:36,467 - INFO - the data set loaded succesfully
+2024-10-03 11:21:34,202 - INFO - loading the data set into the pandas data frame
+2024-10-03 11:21:34,211 - INFO - the data set loaded succesfully
+2024-10-03 11:21:35,093 - INFO - showing the overview of he data
+2024-10-03 11:21:35,097 - INFO - the data set have 16 columns and 95662 rows
+2024-10-03 11:21:35,106 - INFO - the data set columns data types TransactionId            object
+BatchId                  object
+AccountId                object
+SubscriptionId           object
+CustomerId               object
+CurrencyCode             object
+CountryCode               int64
+ProviderId               object
+ProductId                object
+ProductCategory          object
+ChannelId                object
+Amount                  float64
+Value                     int64
+TransactionStartTime     object
+PricingStrategy           int64
+FraudResult               int64
+dtype: object
+2024-10-03 11:22:08,470 - INFO - loading the data set into the pandas data frame
+2024-10-03 11:22:08,476 - INFO - the data set loaded succesfully
+2024-10-03 11:22:08,911 - INFO - showing the overview of he data
+2024-10-03 11:22:08,913 - INFO - the data set have 16 columns and 95662 rows
+2024-10-03 11:22:08,915 - INFO - the data set columns data types 
+ TransactionId            object
+BatchId                  object
+AccountId                object
+SubscriptionId           object
+CustomerId               object
+CurrencyCode             object
+CountryCode               int64
+ProviderId               object
+ProductId                object
+ProductCategory          object
+ChannelId                object
+Amount                  float64
+Value                     int64
+TransactionStartTime     object
+PricingStrategy           int64
+FraudResult               int64
+dtype: object
+2024-10-03 11:22:35,546 - INFO - trying to perfomr the summary statistics
+2024-10-03 11:22:35,556 - INFO - the statistical summaery is <bound method NDFrame.describe of               TransactionId         BatchId       AccountId  \
+0       TransactionId_76871   BatchId_36123  AccountId_3957   
+1       TransactionId_73770   BatchId_15642  AccountId_4841   
+2       TransactionId_26203   BatchId_53941  AccountId_4229   
+3         TransactionId_380  BatchId_102363   AccountId_648   
+4       TransactionId_28195   BatchId_38780  AccountId_4841   
+...                     ...             ...             ...   
+95657   TransactionId_89881   BatchId_96668  AccountId_4841   
+95658   TransactionId_91597    BatchId_3503  AccountId_3439   
+95659   TransactionId_82501  BatchId_118602  AccountId_4841   
+95660  TransactionId_136354   BatchId_70924  AccountId_1346   
+95661   TransactionId_35670   BatchId_29317  AccountId_4841   
+
+            SubscriptionId       CustomerId CurrencyCode  CountryCode  \
+0       SubscriptionId_887  CustomerId_4406          UGX          256   
+1      SubscriptionId_3829  CustomerId_4406          UGX          256   
+2       SubscriptionId_222  CustomerId_4683          UGX          256   
+3      SubscriptionId_2185   CustomerId_988          UGX          256   
+4      SubscriptionId_3829   CustomerId_988          UGX          256   
+...                    ...              ...          ...          ...   
+95657  SubscriptionId_3829  CustomerId_3078          UGX          256   
+95658  SubscriptionId_2643  CustomerId_3874          UGX          256   
+95659  SubscriptionId_3829  CustomerId_3874          UGX          256   
+95660   SubscriptionId_652  CustomerId_1709          UGX          256   
+95661  SubscriptionId_3829  CustomerId_1709          UGX          256   
+
+         ProviderId     ProductId     ProductCategory    ChannelId   Amount  \
+0      ProviderId_6  ProductId_10             airtime  ChannelId_3   1000.0   
+1      ProviderId_4   ProductId_6  financial_services  ChannelId_2    -20.0   
+2      ProviderId_6   ProductId_1             airtime  ChannelId_3    500.0   
+3      ProviderId_1  ProductId_21        utility_bill  ChannelId_3  20000.0   
+4      ProviderId_4   ProductId_6  financial_services  ChannelId_2   -644.0   
+...             ...           ...                 ...          ...      ...   
+95657  ProviderId_4   ProductId_6  financial_services  ChannelId_2  -1000.0   
+95658  ProviderId_6  ProductId_10             airtime  ChannelId_3   1000.0   
+95659  ProviderId_4   ProductId_6  financial_services  ChannelId_2    -20.0   
+95660  ProviderId_6  ProductId_19                  tv  ChannelId_3   3000.0   
+95661  ProviderId_4   ProductId_6  financial_services  ChannelId_2    -60.0   
+
+       Value  TransactionStartTime  PricingStrategy  FraudResult  
+0       1000  2018-11-15T02:18:49Z                2            0  
+1         20  2018-11-15T02:19:08Z                2            0  
+2        500  2018-11-15T02:44:21Z                2            0  
+3      21800  2018-11-15T03:32:55Z                2            0  
+4        644  2018-11-15T03:34:21Z                2            0  
+...      ...                   ...              ...          ...  
+95657   1000  2019-02-13T09:54:09Z                2            0  
+95658   1000  2019-02-13T09:54:25Z                2            0  
+95659     20  2019-02-13T09:54:35Z                2            0  
+95660   3000  2019-02-13T10:01:10Z                2            0  
+95661     60  2019-02-13T10:01:28Z                2            0  
+
+[95662 rows x 16 columns]>
+2024-10-03 11:25:06,656 - INFO - loading the data set into the pandas data frame
+2024-10-03 11:25:06,663 - INFO - the data set loaded succesfully
+2024-10-03 11:25:07,044 - INFO - showing the overview of he data
+2024-10-03 11:25:07,053 - INFO - the data set have 16 columns and 95662 rows
+2024-10-03 11:25:07,055 - INFO - the data set columns data types 
+ TransactionId            object
+BatchId                  object
+AccountId                object
+SubscriptionId           object
+CustomerId               object
+CurrencyCode             object
+CountryCode               int64
+ProviderId               object
+ProductId                object
+ProductCategory          object
+ChannelId                object
+Amount                  float64
+Value                     int64
+TransactionStartTime     object
+PricingStrategy           int64
+FraudResult               int64
+dtype: object
+2024-10-03 11:25:07,070 - INFO - trying to perfomr the summary statistics
+2024-10-03 11:25:07,079 - INFO - the statistical summaery is 
+ <bound method NDFrame.describe of               TransactionId         BatchId       AccountId  \
+0       TransactionId_76871   BatchId_36123  AccountId_3957   
+1       TransactionId_73770   BatchId_15642  AccountId_4841   
+2       TransactionId_26203   BatchId_53941  AccountId_4229   
+3         TransactionId_380  BatchId_102363   AccountId_648   
+4       TransactionId_28195   BatchId_38780  AccountId_4841   
+...                     ...             ...             ...   
+95657   TransactionId_89881   BatchId_96668  AccountId_4841   
+95658   TransactionId_91597    BatchId_3503  AccountId_3439   
+95659   TransactionId_82501  BatchId_118602  AccountId_4841   
+95660  TransactionId_136354   BatchId_70924  AccountId_1346   
+95661   TransactionId_35670   BatchId_29317  AccountId_4841   
+
+            SubscriptionId       CustomerId CurrencyCode  CountryCode  \
+0       SubscriptionId_887  CustomerId_4406          UGX          256   
+1      SubscriptionId_3829  CustomerId_4406          UGX          256   
+2       SubscriptionId_222  CustomerId_4683          UGX          256   
+3      SubscriptionId_2185   CustomerId_988          UGX          256   
+4      SubscriptionId_3829   CustomerId_988          UGX          256   
+...                    ...              ...          ...          ...   
+95657  SubscriptionId_3829  CustomerId_3078          UGX          256   
+95658  SubscriptionId_2643  CustomerId_3874          UGX          256   
+95659  SubscriptionId_3829  CustomerId_3874          UGX          256   
+95660   SubscriptionId_652  CustomerId_1709          UGX          256   
+95661  SubscriptionId_3829  CustomerId_1709          UGX          256   
+
+         ProviderId     ProductId     ProductCategory    ChannelId   Amount  \
+0      ProviderId_6  ProductId_10             airtime  ChannelId_3   1000.0   
+1      ProviderId_4   ProductId_6  financial_services  ChannelId_2    -20.0   
+2      ProviderId_6   ProductId_1             airtime  ChannelId_3    500.0   
+3      ProviderId_1  ProductId_21        utility_bill  ChannelId_3  20000.0   
+4      ProviderId_4   ProductId_6  financial_services  ChannelId_2   -644.0   
+...             ...           ...                 ...          ...      ...   
+95657  ProviderId_4   ProductId_6  financial_services  ChannelId_2  -1000.0   
+95658  ProviderId_6  ProductId_10             airtime  ChannelId_3   1000.0   
+95659  ProviderId_4   ProductId_6  financial_services  ChannelId_2    -20.0   
+95660  ProviderId_6  ProductId_19                  tv  ChannelId_3   3000.0   
+95661  ProviderId_4   ProductId_6  financial_services  ChannelId_2    -60.0   
+
+       Value  TransactionStartTime  PricingStrategy  FraudResult  
+0       1000  2018-11-15T02:18:49Z                2            0  
+1         20  2018-11-15T02:19:08Z                2            0  
+2        500  2018-11-15T02:44:21Z                2            0  
+3      21800  2018-11-15T03:32:55Z                2            0  
+4        644  2018-11-15T03:34:21Z                2            0  
+...      ...                   ...              ...          ...  
+95657   1000  2019-02-13T09:54:09Z                2            0  
+95658   1000  2019-02-13T09:54:25Z                2            0  
+95659     20  2019-02-13T09:54:35Z                2            0  
+95660   3000  2019-02-13T10:01:10Z                2            0  
+95661     60  2019-02-13T10:01:28Z                2            0  
+
+[95662 rows x 16 columns]>
