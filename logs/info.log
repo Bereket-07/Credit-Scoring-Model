@@ -174,3 +174,80 @@ dtype: object
 95661     60  2019-02-13T10:01:28Z                2            0  
 
 [95662 rows x 16 columns]>
+2024-10-03 11:26:04,879 - INFO - loading the data set into the pandas data frame
+2024-10-03 11:26:04,880 - INFO - the data set loaded succesfully
+2024-10-03 11:26:05,310 - INFO - showing the overview of he data
+2024-10-03 11:26:05,310 - INFO - the data set have 16 columns and 95662 rows
+2024-10-03 11:26:05,310 - INFO - the data set columns data types 
+ TransactionId            object
+BatchId                  object
+AccountId                object
+SubscriptionId           object
+CustomerId               object
+CurrencyCode             object
+CountryCode               int64
+ProviderId               object
+ProductId                object
+ProductCategory          object
+ChannelId                object
+Amount                  float64
+Value                     int64
+TransactionStartTime     object
+PricingStrategy           int64
+FraudResult               int64
+dtype: object
+2024-10-03 11:26:05,328 - INFO - trying to perfomr the summary statistics
+2024-10-03 11:26:05,358 - INFO - the statistical summaery is 
+        CountryCode        Amount         Value  PricingStrategy   FraudResult
+count      95662.0  9.566200e+04  9.566200e+04     95662.000000  95662.000000
+mean         256.0  6.717846e+03  9.900584e+03         2.255974      0.002018
+std            0.0  1.233068e+05  1.231221e+05         0.732924      0.044872
+min          256.0 -1.000000e+06  2.000000e+00         0.000000      0.000000
+25%          256.0 -5.000000e+01  2.750000e+02         2.000000      0.000000
+50%          256.0  1.000000e+03  1.000000e+03         2.000000      0.000000
+75%          256.0  2.800000e+03  5.000000e+03         2.000000      0.000000
+max          256.0  9.880000e+06  9.880000e+06         4.000000      1.000000
+2024-10-03 11:26:36,852 - INFO - perfomring the process to show the distribution of numerical features
+2024-10-03 11:26:36,853 - INFO - selecting columns of the numeric columns only
+2024-10-03 11:30:37,284 - INFO - perfomring the process to show the distribution of catagorical features
+2024-10-03 11:33:24,303 - INFO - loading the data set into the pandas data frame
+2024-10-03 11:33:24,305 - INFO - the data set loaded succesfully
+2024-10-03 11:33:24,690 - INFO - showing the overview of he data
+2024-10-03 11:33:24,701 - INFO - the data set have 16 columns and 95662 rows
+2024-10-03 11:33:24,705 - INFO - the data set columns data types 
+ TransactionId            object
+BatchId                  object
+AccountId                object
+SubscriptionId           object
+CustomerId               object
+CurrencyCode             object
+CountryCode               int64
+ProviderId               object
+ProductId                object
+ProductCategory          object
+ChannelId                object
+Amount                  float64
+Value                     int64
+TransactionStartTime     object
+PricingStrategy           int64
+FraudResult               int64
+dtype: object
+2024-10-03 11:33:24,721 - INFO - trying to perfomr the summary statistics
+2024-10-03 11:33:24,736 - INFO - the statistical summaery is 
+        CountryCode        Amount         Value  PricingStrategy   FraudResult
+count      95662.0  9.566200e+04  9.566200e+04     95662.000000  95662.000000
+mean         256.0  6.717846e+03  9.900584e+03         2.255974      0.002018
+std            0.0  1.233068e+05  1.231221e+05         0.732924      0.044872
+min          256.0 -1.000000e+06  2.000000e+00         0.000000      0.000000
+25%          256.0 -5.000000e+01  2.750000e+02         2.000000      0.000000
+50%          256.0  1.000000e+03  1.000000e+03         2.000000      0.000000
+75%          256.0  2.800000e+03  5.000000e+03         2.000000      0.000000
+max          256.0  9.880000e+06  9.880000e+06         4.000000      1.000000
+2024-10-03 11:33:24,754 - INFO - perfomring the process to show the distribution of numerical features
+2024-10-03 11:33:24,754 - INFO - selecting columns of the numeric columns only
+2024-10-03 11:33:24,754 - INFO - visualing the numeric data
+2024-10-03 11:33:25,669 - INFO - box plot for outliers for numeric columns
+2024-10-03 11:33:26,323 - INFO - pair plots for Multivratiate analysis
+2024-10-03 11:36:59,449 - INFO - checking for skewness
+2024-10-03 11:36:59,665 - INFO - perfomring the process to show the distribution of catagorical features
+2024-10-03 11:36:59,685 - INFO - visualizing the catagorical data distribution
