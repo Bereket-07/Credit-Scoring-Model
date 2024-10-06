@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import logging , os
+import math
 
 
 logging.basicConfig(
@@ -121,20 +122,33 @@ def distribution_of_catagorical_features(data):
         analyze_the_variability_of_catagorical_features(data,catagorical_cols)
     except Exception as e:
         logger.error(f"error occured {e}")
-def visualize_distribution_catagoical(data,catagorical_cols):
-    plt.figure(figsize=(15, 10))
+def visualize_distribution_catagoical(data, catagorical_cols):
+    num_cols = len(catagorical_cols)
+    
+    # Dynamically calculate the number of rows and columns for subplots
+    nrows = math.ceil(num_cols / 3)  # 3 columns per row
+    ncols = 3  # Fixed to 3 columns
+    
+    plt.figure(figsize=(15, nrows * 5))  # Adjusting figure size to match rows
     for i, col in enumerate(catagorical_cols, 1):
-        plt.subplot(3, 3, i)  # Adjust based on the number of categorical columns
+        plt.subplot(nrows, ncols, i)  # Now dynamically set rows and cols based on the number of columns
         data[col].value_counts().plot(kind='bar', color='skyblue', edgecolor='black')
         plt.title(f'Distribution of {col}')
         plt.xlabel('Categories')
         plt.ylabel('Count')
     plt.tight_layout()
     plt.show()
-def pie_charts_for_proportions(data,catagorical_cols):
-    plt.figure(figsize=(15, 10))
+
+def pie_charts_for_proportions(data, catagorical_cols):
+    num_cols = len(catagorical_cols)
+
+    # Dynamically calculate the number of rows and columns for subplots
+    nrows = math.ceil(num_cols / 3)  # 3 columns per row
+    ncols = 3  # Fixed to 3 columns
+
+    plt.figure(figsize=(15, nrows * 5))  # Adjusting figure size to match rows
     for i, col in enumerate(catagorical_cols, 1):
-        plt.subplot(3, 3, i)
+        plt.subplot(nrows, ncols, i)
         data[col].value_counts().plot(kind='pie', autopct='%1.1f%%', startangle=90, colors=plt.cm.Paired.colors)
         plt.title(f'Proportion of {col}')
         plt.ylabel('')  # Hide y-label for better visibility
@@ -197,4 +211,7 @@ def outlier_detection_for_numeric_cols(data):
         # Box plot for all numerical columns
         sns.boxplot(data=numeric_df)
         plt.xticks(rotation=90)  # Rotate labels if needed
-        plt.title('Box Plot
+        plt.title('Box Plot for Numeric Features')
+        plt.show()
+    except Exception as e:
+        logger.error(f"error occured {e}")

@@ -251,3 +251,752 @@ max          256.0  9.880000e+06  9.880000e+06         4.000000      1.000000
 2024-10-03 11:36:59,449 - INFO - checking for skewness
 2024-10-03 11:36:59,665 - INFO - perfomring the process to show the distribution of catagorical features
 2024-10-03 11:36:59,685 - INFO - visualizing the catagorical data distribution
+2024-10-03 13:15:37,671 - INFO - loading the data set into the pandas data frame
+2024-10-03 13:15:37,673 - INFO - the data set loaded succesfully
+2024-10-03 13:15:38,191 - INFO - showing the overview of he data
+2024-10-03 13:15:38,191 - INFO - the data set have 16 columns and 95662 rows
+2024-10-03 13:15:38,197 - INFO - the data set columns data types 
+ TransactionId            object
+BatchId                  object
+AccountId                object
+SubscriptionId           object
+CustomerId               object
+CurrencyCode             object
+CountryCode               int64
+ProviderId               object
+ProductId                object
+ProductCategory          object
+ChannelId                object
+Amount                  float64
+Value                     int64
+TransactionStartTime     object
+PricingStrategy           int64
+FraudResult               int64
+dtype: object
+2024-10-03 13:15:38,214 - INFO - trying to perfomr the summary statistics
+2024-10-03 13:15:38,256 - INFO - the statistical summaery is 
+        CountryCode        Amount         Value  PricingStrategy   FraudResult
+count      95662.0  9.566200e+04  9.566200e+04     95662.000000  95662.000000
+mean         256.0  6.717846e+03  9.900584e+03         2.255974      0.002018
+std            0.0  1.233068e+05  1.231221e+05         0.732924      0.044872
+min          256.0 -1.000000e+06  2.000000e+00         0.000000      0.000000
+25%          256.0 -5.000000e+01  2.750000e+02         2.000000      0.000000
+50%          256.0  1.000000e+03  1.000000e+03         2.000000      0.000000
+75%          256.0  2.800000e+03  5.000000e+03         2.000000      0.000000
+max          256.0  9.880000e+06  9.880000e+06         4.000000      1.000000
+2024-10-03 13:15:38,279 - INFO - perfomring the process to show the distribution of numerical features
+2024-10-03 13:15:38,282 - INFO - selecting columns of the numeric columns only
+2024-10-03 13:15:38,289 - INFO - visualing the numeric data
+2024-10-03 13:15:39,210 - INFO - box plot for outliers for numeric columns
+2024-10-03 13:18:55,891 - INFO - perfomring the process to show the distribution of catagorical features
+2024-10-03 13:26:24,144 - ERROR - error occured num must be an integer with 1 <= num <= 9, not 10
+2024-10-05 12:30:41,784 - INFO - loading the data set into the pandas data frame
+2024-10-05 12:30:41,786 - INFO - the data set loaded succesfully
+2024-10-05 12:30:42,414 - INFO - showing the overview of he data
+2024-10-05 12:30:42,417 - INFO - the data set have 16 columns and 95662 rows
+2024-10-05 12:30:42,424 - INFO - the data set columns data types 
+ TransactionId            object
+BatchId                  object
+AccountId                object
+SubscriptionId           object
+CustomerId               object
+CurrencyCode             object
+CountryCode               int64
+ProviderId               object
+ProductId                object
+ProductCategory          object
+ChannelId                object
+Amount                  float64
+Value                     int64
+TransactionStartTime     object
+PricingStrategy           int64
+FraudResult               int64
+dtype: object
+2024-10-05 12:30:42,450 - INFO - trying to perfomr the summary statistics
+2024-10-05 12:30:42,509 - INFO - the statistical summaery is 
+        CountryCode        Amount         Value  PricingStrategy   FraudResult
+count      95662.0  9.566200e+04  9.566200e+04     95662.000000  95662.000000
+mean         256.0  6.717846e+03  9.900584e+03         2.255974      0.002018
+std            0.0  1.233068e+05  1.231221e+05         0.732924      0.044872
+min          256.0 -1.000000e+06  2.000000e+00         0.000000      0.000000
+25%          256.0 -5.000000e+01  2.750000e+02         2.000000      0.000000
+50%          256.0  1.000000e+03  1.000000e+03         2.000000      0.000000
+75%          256.0  2.800000e+03  5.000000e+03         2.000000      0.000000
+max          256.0  9.880000e+06  9.880000e+06         4.000000      1.000000
+2024-10-05 12:30:42,526 - INFO - perfomring the process to show the distribution of numerical features
+2024-10-05 12:30:42,527 - INFO - selecting columns of the numeric columns only
+2024-10-05 12:30:42,532 - INFO - visualing the numeric data
+2024-10-05 12:30:43,919 - INFO - box plot for outliers for numeric columns
+2024-10-05 12:34:16,556 - INFO - perfomring the process to show the distribution of catagorical features
+2024-10-05 12:42:36,762 - ERROR - error occured num must be an integer with 1 <= num <= 9, not 10
+2024-10-06 11:41:28,758 - INFO - loading the data set into the pandas data frame
+2024-10-06 11:41:28,761 - INFO - the data set loaded succesfully
+2024-10-06 11:41:29,751 - INFO - showing the overview of he data
+2024-10-06 11:41:29,753 - INFO - the data set have 16 columns and 95662 rows
+2024-10-06 11:41:29,758 - INFO - the data set columns data types 
+ TransactionId            object
+BatchId                  object
+AccountId                object
+SubscriptionId           object
+CustomerId               object
+CurrencyCode             object
+CountryCode               int64
+ProviderId               object
+ProductId                object
+ProductCategory          object
+ChannelId                object
+Amount                  float64
+Value                     int64
+TransactionStartTime     object
+PricingStrategy           int64
+FraudResult               int64
+dtype: object
+2024-10-06 11:41:29,780 - INFO - trying to perfomr the summary statistics
+2024-10-06 11:41:29,852 - INFO - the statistical summaery is 
+        CountryCode        Amount         Value  PricingStrategy   FraudResult
+count      95662.0  9.566200e+04  9.566200e+04     95662.000000  95662.000000
+mean         256.0  6.717846e+03  9.900584e+03         2.255974      0.002018
+std            0.0  1.233068e+05  1.231221e+05         0.732924      0.044872
+min          256.0 -1.000000e+06  2.000000e+00         0.000000      0.000000
+25%          256.0 -5.000000e+01  2.750000e+02         2.000000      0.000000
+50%          256.0  1.000000e+03  1.000000e+03         2.000000      0.000000
+75%          256.0  2.800000e+03  5.000000e+03         2.000000      0.000000
+max          256.0  9.880000e+06  9.880000e+06         4.000000      1.000000
+2024-10-06 11:41:29,872 - INFO - perfomring the process to show the distribution of numerical features
+2024-10-06 11:41:29,874 - INFO - selecting columns of the numeric columns only
+2024-10-06 11:41:29,881 - INFO - visualing the numeric data
+2024-10-06 11:41:32,634 - INFO - box plot for outliers for numeric columns
+2024-10-06 11:45:41,961 - INFO - perfomring the process to show the distribution of catagorical features
+2024-10-06 11:51:59,853 - ERROR - error occured num must be an integer with 1 <= num <= 9, not 10
+2024-10-06 12:13:12,317 - INFO - performing the correlation matrix for the numeric features
+2024-10-06 12:17:14,846 - INFO - detecting outliers for numerical columns
+2024-10-06 12:21:11,334 - INFO - loading the data set into the pandas data frame
+2024-10-06 12:21:11,336 - INFO - the data set loaded succesfully
+2024-10-06 12:21:11,925 - INFO - showing the overview of he data
+2024-10-06 12:21:11,925 - INFO - the data set have 16 columns and 95662 rows
+2024-10-06 12:21:11,931 - INFO - the data set columns data types 
+ TransactionId            object
+BatchId                  object
+AccountId                object
+SubscriptionId           object
+CustomerId               object
+CurrencyCode             object
+CountryCode               int64
+ProviderId               object
+ProductId                object
+ProductCategory          object
+ChannelId                object
+Amount                  float64
+Value                     int64
+TransactionStartTime     object
+PricingStrategy           int64
+FraudResult               int64
+dtype: object
+2024-10-06 12:21:11,946 - INFO - trying to perfomr the summary statistics
+2024-10-06 12:21:11,996 - INFO - the statistical summaery is 
+        CountryCode        Amount         Value  PricingStrategy   FraudResult
+count      95662.0  9.566200e+04  9.566200e+04     95662.000000  95662.000000
+mean         256.0  6.717846e+03  9.900584e+03         2.255974      0.002018
+std            0.0  1.233068e+05  1.231221e+05         0.732924      0.044872
+min          256.0 -1.000000e+06  2.000000e+00         0.000000      0.000000
+25%          256.0 -5.000000e+01  2.750000e+02         2.000000      0.000000
+50%          256.0  1.000000e+03  1.000000e+03         2.000000      0.000000
+75%          256.0  2.800000e+03  5.000000e+03         2.000000      0.000000
+max          256.0  9.880000e+06  9.880000e+06         4.000000      1.000000
+2024-10-06 12:21:12,013 - INFO - perfomring the process to show the distribution of numerical features
+2024-10-06 12:21:12,016 - INFO - selecting columns of the numeric columns only
+2024-10-06 12:21:12,021 - INFO - visualing the numeric data
+2024-10-06 12:21:13,590 - INFO - box plot for outliers for numeric columns
+2024-10-06 12:23:53,600 - INFO - perfomring the process to show the distribution of catagorical features
+2024-10-06 12:24:07,199 - INFO - loading the data
+2024-10-06 12:24:07,199 - INFO - the data is loding
+2024-10-06 12:25:02,403 - INFO - creating aggregate features
+2024-10-06 12:25:02,447 - ERROR - error occured 'DataFrame' object has no attribute 'rest_index'
+2024-10-06 12:26:04,514 - INFO - loading the data
+2024-10-06 12:26:04,517 - INFO - the data is loding
+2024-10-06 12:26:05,017 - INFO - creating aggregate features
+2024-10-06 12:27:51,564 - INFO - loading the data
+2024-10-06 12:27:51,564 - INFO - the data is loding
+2024-10-06 12:27:52,102 - INFO - creating aggregate features
+2024-10-06 12:32:12,561 - INFO - encoding the catagorical variables
+2024-10-06 12:32:12,574 - INFO - one-hot encoding used for nominal vaiables 
+2024-10-06 12:32:13,209 - INFO - lable encoding for ordinal categorical variables
+2024-10-06 12:32:13,259 - INFO - Aepplying WOE encoding to certain categorical variable...
+2024-10-06 12:32:13,276 - ERROR - Error during WOE transformation: "None of [Index(['CurrencyCode', 'ProviderId', 'ProductId', 'ProductCategory'], dtype='object')] are in the [columns]"
+2024-10-06 12:35:21,057 - INFO - loading the data
+2024-10-06 12:35:21,058 - INFO - the data is loding
+2024-10-06 12:35:21,575 - INFO - creating aggregate features
+2024-10-06 12:35:21,706 - INFO - encoding the categorical variables
+2024-10-06 12:35:21,709 - INFO - label encoding for ordinal categorical variables
+2024-10-06 12:35:21,716 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 12:35:21,729 - ERROR - Error during WOE transformation: The input feature(s) should be numeric type. Some of the input features                             has character values in it. Please use a encoder before performing monotonic operations.
+2024-10-06 12:35:21,733 - INFO - one-hot encoding for nominal variables
+2024-10-06 12:35:31,245 - INFO - encoding the categorical variables
+2024-10-06 12:35:31,246 - INFO - label encoding for ordinal categorical variables
+2024-10-06 12:35:31,251 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 12:35:31,263 - ERROR - Error during WOE transformation: The input feature(s) should be numeric type. Some of the input features                             has character values in it. Please use a encoder before performing monotonic operations.
+2024-10-06 12:35:31,265 - INFO - one-hot encoding for nominal variables
+2024-10-06 12:35:31,268 - ERROR - error occurred "None of [Index(['ChannelId'], dtype='object')] are in the [columns]"
+2024-10-06 12:35:34,900 - INFO - encoding the categorical variables
+2024-10-06 12:35:34,902 - INFO - label encoding for ordinal categorical variables
+2024-10-06 12:35:34,904 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 12:35:34,917 - ERROR - Error during WOE transformation: The input feature(s) should be numeric type. Some of the input features                             has character values in it. Please use a encoder before performing monotonic operations.
+2024-10-06 12:35:34,920 - INFO - one-hot encoding for nominal variables
+2024-10-06 12:35:34,922 - ERROR - error occurred "None of [Index(['ChannelId'], dtype='object')] are in the [columns]"
+2024-10-06 12:41:52,426 - INFO - loading the data
+2024-10-06 12:41:52,433 - INFO - the data is loding
+2024-10-06 12:41:52,939 - INFO - creating aggregate features
+2024-10-06 12:41:53,057 - INFO - encoding the categorical variables
+2024-10-06 12:41:53,059 - INFO - label encoding for ordinal categorical variables
+2024-10-06 12:41:53,188 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 12:41:53,403 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 12:41:53,408 - INFO - Current columns in data before one-hot encoding: ['TransactionId', 'BatchId', 'AccountId', 'SubscriptionId', 'CustomerId', 'CurrencyCode', 'CountryCode', 'ProviderId', 'ProductId', 'ProductCategory', 'ChannelId', 'Amount', 'Value', 'TransactionStartTime', 'PricingStrategy', 'FraudResult', 'Total_Transaction_Amount', 'Average_Transaction_Amount', 'Transaction_Count', 'Std_Transaction_Amount']
+2024-10-06 12:41:53,410 - INFO - one-hot encoding for nominal variables
+2024-10-06 12:42:48,669 - INFO - loading the data
+2024-10-06 12:42:48,672 - INFO - the data is loding
+2024-10-06 12:42:49,219 - INFO - creating aggregate features
+2024-10-06 12:42:49,361 - INFO - encoding the categorical variables
+2024-10-06 12:42:49,366 - INFO - label encoding for ordinal categorical variables
+2024-10-06 12:42:49,369 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 12:42:49,384 - ERROR - Error during WOE transformation: The input feature(s) should be numeric type. Some of the input features                             has character values in it. Please use a encoder before performing monotonic operations.
+2024-10-06 12:42:49,390 - INFO - one-hot encoding for nominal variables
+2024-10-06 12:45:23,640 - INFO - loading the data
+2024-10-06 12:45:23,640 - INFO - the data is loding
+2024-10-06 12:45:24,179 - INFO - creating aggregate features
+2024-10-06 12:45:24,279 - INFO - encoding the categorical variables
+2024-10-06 12:45:24,280 - INFO - label encoding for ordinal categorical variables
+2024-10-06 12:45:24,370 - INFO - Checking data types of columns for WOE encoding
+2024-10-06 12:45:24,370 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                    int64
+CountryCode                     int64
+ProviderId                      int64
+ProductId                       int64
+ProductCategory                 int64
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 12:45:24,370 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 12:45:24,510 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 12:45:24,510 - INFO - one-hot encoding for nominal variables
+2024-10-06 12:47:49,547 - INFO - loading the data
+2024-10-06 12:47:49,555 - INFO - the data is loding
+2024-10-06 12:47:50,241 - INFO - creating aggregate features
+2024-10-06 12:47:50,409 - INFO - encoding the categorical variables
+2024-10-06 12:47:50,409 - INFO - label encoding for ordinal categorical variables
+2024-10-06 12:47:50,415 - INFO - Checking data types of columns for WOE encoding
+2024-10-06 12:47:50,420 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                   object
+CountryCode                     int64
+ProviderId                     object
+ProductId                      object
+ProductCategory                object
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 12:47:50,425 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 12:47:50,427 - ERROR - Column CurrencyCode is not numeric. Converting...
+2024-10-06 12:47:50,601 - ERROR - Column ProviderId is not numeric. Converting...
+2024-10-06 12:47:50,752 - ERROR - Column ProductId is not numeric. Converting...
+2024-10-06 12:47:50,919 - ERROR - Column ProductCategory is not numeric. Converting...
+2024-10-06 12:47:51,712 - ERROR - Error during WOE transformation: 'ProviderId'
+2024-10-06 12:47:51,721 - INFO - one-hot encoding for nominal variables
+2024-10-06 12:50:54,843 - INFO - loading the data
+2024-10-06 12:50:54,853 - INFO - the data is loding
+2024-10-06 12:50:55,312 - INFO - creating aggregate features
+2024-10-06 12:50:55,417 - INFO - encoding the categorical variables
+2024-10-06 12:50:55,420 - INFO - label encoding for ordinal categorical variables
+2024-10-06 12:50:55,422 - INFO - Checking data types of columns for WOE encoding
+2024-10-06 12:50:55,422 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                   object
+CountryCode                     int64
+ProviderId                     object
+ProductId                      object
+ProductCategory                object
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 12:50:55,428 - INFO - Unique values in CurrencyCode: ['UGX']
+2024-10-06 12:50:55,444 - INFO - Unique values in ProviderId: ['ProviderId_6' 'ProviderId_4' 'ProviderId_1' 'ProviderId_5'
+ 'ProviderId_3' 'ProviderId_2']
+2024-10-06 12:50:55,454 - INFO - Unique values in ProductId: ['ProductId_10' 'ProductId_6' 'ProductId_1' 'ProductId_21' 'ProductId_3'
+ 'ProductId_15' 'ProductId_11' 'ProductId_19' 'ProductId_4' 'ProductId_5'
+ 'ProductId_20' 'ProductId_9' 'ProductId_24' 'ProductId_14' 'ProductId_2'
+ 'ProductId_13' 'ProductId_22' 'ProductId_8' 'ProductId_7' 'ProductId_27'
+ 'ProductId_12' 'ProductId_16' 'ProductId_23']
+2024-10-06 12:50:55,461 - INFO - Unique values in ProductCategory: ['airtime' 'financial_services' 'utility_bill' 'data_bundles' 'tv'
+ 'transport' 'ticket' 'movies' 'other']
+2024-10-06 12:50:55,517 - INFO - Data types after conversion:
+2024-10-06 12:50:55,519 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                     int8
+CountryCode                     int64
+ProviderId                       int8
+ProductId                        int8
+ProductCategory                  int8
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 12:50:55,522 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 12:50:55,678 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 12:50:55,678 - INFO - one-hot encoding for nominal variables
+2024-10-06 13:18:16,943 - INFO - loading the data
+2024-10-06 13:18:16,946 - INFO - the data is loding
+2024-10-06 13:18:18,012 - INFO - creating aggregate features
+2024-10-06 13:18:18,397 - INFO - encoding the categorical variables
+2024-10-06 13:18:18,397 - INFO - label encoding for ordinal categorical variables
+2024-10-06 13:18:18,397 - INFO - Checking data types of columns for WOE encoding
+2024-10-06 13:18:18,408 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                   object
+CountryCode                     int64
+ProviderId                     object
+ProductId                      object
+ProductCategory                object
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 13:18:18,424 - INFO - Unique values in CurrencyCode: ['UGX']
+2024-10-06 13:18:18,439 - INFO - Unique values in ProviderId: ['ProviderId_6' 'ProviderId_4' 'ProviderId_1' 'ProviderId_5'
+ 'ProviderId_3' 'ProviderId_2']
+2024-10-06 13:18:18,460 - INFO - Unique values in ProductId: ['ProductId_10' 'ProductId_6' 'ProductId_1' 'ProductId_21' 'ProductId_3'
+ 'ProductId_15' 'ProductId_11' 'ProductId_19' 'ProductId_4' 'ProductId_5'
+ 'ProductId_20' 'ProductId_9' 'ProductId_24' 'ProductId_14' 'ProductId_2'
+ 'ProductId_13' 'ProductId_22' 'ProductId_8' 'ProductId_7' 'ProductId_27'
+ 'ProductId_12' 'ProductId_16' 'ProductId_23']
+2024-10-06 13:18:18,484 - INFO - Unique values in ProductCategory: ['airtime' 'financial_services' 'utility_bill' 'data_bundles' 'tv'
+ 'transport' 'ticket' 'movies' 'other']
+2024-10-06 13:18:18,548 - INFO - Data types after conversion:
+2024-10-06 13:18:18,552 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                     int8
+CountryCode                     int64
+ProviderId                       int8
+ProductId                        int8
+ProductCategory                  int8
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 13:18:18,557 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 13:18:18,792 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 13:18:18,795 - INFO - one-hot encoding for nominal variables
+2024-10-06 13:18:19,073 - INFO - constructing the RFMS scores
+2024-10-06 13:18:19,076 - INFO - Calculate Recency as days since last transaction
+2024-10-06 13:18:19,091 - ERROR - error occured unsupported operand type(s) for -: 'Timestamp' and 'str'
+2024-10-06 13:24:01,794 - INFO - loading the data
+2024-10-06 13:24:01,796 - INFO - the data is loding
+2024-10-06 13:24:02,950 - INFO - creating aggregate features
+2024-10-06 13:24:03,208 - INFO - encoding the categorical variables
+2024-10-06 13:24:03,211 - INFO - label encoding for ordinal categorical variables
+2024-10-06 13:24:03,216 - INFO - Checking data types of columns for WOE encoding
+2024-10-06 13:24:03,216 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                   object
+CountryCode                     int64
+ProviderId                     object
+ProductId                      object
+ProductCategory                object
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 13:24:03,233 - INFO - Unique values in CurrencyCode: ['UGX']
+2024-10-06 13:24:03,256 - INFO - Unique values in ProviderId: ['ProviderId_6' 'ProviderId_4' 'ProviderId_1' 'ProviderId_5'
+ 'ProviderId_3' 'ProviderId_2']
+2024-10-06 13:24:03,276 - INFO - Unique values in ProductId: ['ProductId_10' 'ProductId_6' 'ProductId_1' 'ProductId_21' 'ProductId_3'
+ 'ProductId_15' 'ProductId_11' 'ProductId_19' 'ProductId_4' 'ProductId_5'
+ 'ProductId_20' 'ProductId_9' 'ProductId_24' 'ProductId_14' 'ProductId_2'
+ 'ProductId_13' 'ProductId_22' 'ProductId_8' 'ProductId_7' 'ProductId_27'
+ 'ProductId_12' 'ProductId_16' 'ProductId_23']
+2024-10-06 13:24:03,293 - INFO - Unique values in ProductCategory: ['airtime' 'financial_services' 'utility_bill' 'data_bundles' 'tv'
+ 'transport' 'ticket' 'movies' 'other']
+2024-10-06 13:24:03,376 - INFO - Data types after conversion:
+2024-10-06 13:24:03,386 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                     int8
+CountryCode                     int64
+ProviderId                       int8
+ProductId                        int8
+ProductCategory                  int8
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 13:24:03,396 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 13:24:03,668 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 13:24:03,674 - INFO - one-hot encoding for nominal variables
+2024-10-06 13:24:03,799 - INFO - constructing the RFMS scores
+2024-10-06 13:24:03,805 - INFO - Calculate Recency as days since last transaction
+2024-10-06 13:24:04,418 - ERROR - error occured Cannot subtract tz-naive and tz-aware datetime-like objects
+2024-10-06 13:28:06,437 - INFO - loading the data
+2024-10-06 13:28:06,437 - INFO - the data is loding
+2024-10-06 13:28:07,536 - INFO - creating aggregate features
+2024-10-06 13:28:07,801 - INFO - encoding the categorical variables
+2024-10-06 13:28:07,803 - INFO - label encoding for ordinal categorical variables
+2024-10-06 13:28:07,806 - INFO - Checking data types of columns for WOE encoding
+2024-10-06 13:28:07,810 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                   object
+CountryCode                     int64
+ProviderId                     object
+ProductId                      object
+ProductCategory                object
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 13:28:07,832 - INFO - Unique values in CurrencyCode: ['UGX']
+2024-10-06 13:28:07,849 - INFO - Unique values in ProviderId: ['ProviderId_6' 'ProviderId_4' 'ProviderId_1' 'ProviderId_5'
+ 'ProviderId_3' 'ProviderId_2']
+2024-10-06 13:28:07,870 - INFO - Unique values in ProductId: ['ProductId_10' 'ProductId_6' 'ProductId_1' 'ProductId_21' 'ProductId_3'
+ 'ProductId_15' 'ProductId_11' 'ProductId_19' 'ProductId_4' 'ProductId_5'
+ 'ProductId_20' 'ProductId_9' 'ProductId_24' 'ProductId_14' 'ProductId_2'
+ 'ProductId_13' 'ProductId_22' 'ProductId_8' 'ProductId_7' 'ProductId_27'
+ 'ProductId_12' 'ProductId_16' 'ProductId_23']
+2024-10-06 13:28:07,886 - INFO - Unique values in ProductCategory: ['airtime' 'financial_services' 'utility_bill' 'data_bundles' 'tv'
+ 'transport' 'ticket' 'movies' 'other']
+2024-10-06 13:28:07,969 - INFO - Data types after conversion:
+2024-10-06 13:28:07,969 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                     int8
+CountryCode                     int64
+ProviderId                       int8
+ProductId                        int8
+ProductCategory                  int8
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 13:28:07,976 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 13:28:08,223 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 13:28:08,226 - INFO - one-hot encoding for nominal variables
+2024-10-06 13:28:08,348 - INFO - constructing the RFMS scores
+2024-10-06 13:28:08,356 - INFO - Calculate Recency as days since last transaction
+2024-10-06 13:28:08,944 - INFO - visualizing the RFMS space
+2024-10-06 13:28:09,160 - INFO - assigning the good and bad labels
+2024-10-06 13:28:09,168 - INFO - calculating woe
+2024-10-06 13:28:09,176 - ERROR - error occurred func is expected but received tuple in **kwargs.
+2024-10-06 13:38:22,285 - INFO - loading the data
+2024-10-06 13:38:22,290 - INFO - the data is loding
+2024-10-06 13:38:23,467 - INFO - creating aggregate features
+2024-10-06 13:38:23,734 - INFO - encoding the categorical variables
+2024-10-06 13:38:23,739 - INFO - label encoding for ordinal categorical variables
+2024-10-06 13:38:23,744 - INFO - Checking data types of columns for WOE encoding
+2024-10-06 13:38:23,749 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                   object
+CountryCode                     int64
+ProviderId                     object
+ProductId                      object
+ProductCategory                object
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 13:38:23,774 - INFO - Unique values in CurrencyCode: ['UGX']
+2024-10-06 13:38:23,794 - INFO - Unique values in ProviderId: ['ProviderId_6' 'ProviderId_4' 'ProviderId_1' 'ProviderId_5'
+ 'ProviderId_3' 'ProviderId_2']
+2024-10-06 13:38:23,815 - INFO - Unique values in ProductId: ['ProductId_10' 'ProductId_6' 'ProductId_1' 'ProductId_21' 'ProductId_3'
+ 'ProductId_15' 'ProductId_11' 'ProductId_19' 'ProductId_4' 'ProductId_5'
+ 'ProductId_20' 'ProductId_9' 'ProductId_24' 'ProductId_14' 'ProductId_2'
+ 'ProductId_13' 'ProductId_22' 'ProductId_8' 'ProductId_7' 'ProductId_27'
+ 'ProductId_12' 'ProductId_16' 'ProductId_23']
+2024-10-06 13:38:23,834 - INFO - Unique values in ProductCategory: ['airtime' 'financial_services' 'utility_bill' 'data_bundles' 'tv'
+ 'transport' 'ticket' 'movies' 'other']
+2024-10-06 13:38:23,926 - INFO - Data types after conversion:
+2024-10-06 13:38:23,931 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                     int8
+CountryCode                     int64
+ProviderId                       int8
+ProductId                        int8
+ProductCategory                  int8
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 13:38:23,939 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 13:38:24,130 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 13:38:24,134 - INFO - one-hot encoding for nominal variables
+2024-10-06 13:38:24,279 - INFO - constructing the RFMS scores
+2024-10-06 13:38:24,279 - INFO - Calculate Recency as days since last transaction
+2024-10-06 13:38:24,904 - INFO - visualizing the RFMS space
+2024-10-06 13:38:25,049 - INFO - assigning the good and bad labels
+2024-10-06 13:38:25,057 - INFO - calculating woe
+2024-10-06 13:38:25,062 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-06 13:38:25,065 - INFO - WoE results calculated successfully
+2024-10-06 13:40:31,850 - INFO - loading the data
+2024-10-06 13:40:31,854 - INFO - the data is loding
+2024-10-06 13:40:32,982 - INFO - creating aggregate features
+2024-10-06 13:40:33,226 - INFO - encoding the categorical variables
+2024-10-06 13:40:33,231 - INFO - label encoding for ordinal categorical variables
+2024-10-06 13:40:33,234 - INFO - Checking data types of columns for WOE encoding
+2024-10-06 13:40:33,239 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                   object
+CountryCode                     int64
+ProviderId                     object
+ProductId                      object
+ProductCategory                object
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 13:40:33,261 - INFO - Unique values in CurrencyCode: ['UGX']
+2024-10-06 13:40:33,284 - INFO - Unique values in ProviderId: ['ProviderId_6' 'ProviderId_4' 'ProviderId_1' 'ProviderId_5'
+ 'ProviderId_3' 'ProviderId_2']
+2024-10-06 13:40:33,307 - INFO - Unique values in ProductId: ['ProductId_10' 'ProductId_6' 'ProductId_1' 'ProductId_21' 'ProductId_3'
+ 'ProductId_15' 'ProductId_11' 'ProductId_19' 'ProductId_4' 'ProductId_5'
+ 'ProductId_20' 'ProductId_9' 'ProductId_24' 'ProductId_14' 'ProductId_2'
+ 'ProductId_13' 'ProductId_22' 'ProductId_8' 'ProductId_7' 'ProductId_27'
+ 'ProductId_12' 'ProductId_16' 'ProductId_23']
+2024-10-06 13:40:33,333 - INFO - Unique values in ProductCategory: ['airtime' 'financial_services' 'utility_bill' 'data_bundles' 'tv'
+ 'transport' 'ticket' 'movies' 'other']
+2024-10-06 13:40:33,415 - INFO - Data types after conversion:
+2024-10-06 13:40:33,424 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                     int8
+CountryCode                     int64
+ProviderId                       int8
+ProductId                        int8
+ProductCategory                  int8
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 13:40:33,431 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 13:40:33,695 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 13:40:33,702 - INFO - one-hot encoding for nominal variables
+2024-10-06 13:40:33,839 - INFO - constructing the RFMS scores
+2024-10-06 13:40:33,844 - INFO - Calculate Recency as days since last transaction
+2024-10-06 13:40:34,465 - INFO - visualizing the RFMS space
+2024-10-06 13:40:34,597 - INFO - assigning the good and bad labels
+2024-10-06 13:40:34,605 - INFO - calculating woe
+2024-10-06 13:40:34,611 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-06 13:40:34,617 - INFO - WoE results calculated successfully
+2024-10-06 13:41:01,706 - INFO - loading the data
+2024-10-06 13:41:01,706 - INFO - the data is loding
+2024-10-06 13:41:02,290 - INFO - creating aggregate features
+2024-10-06 13:41:02,429 - INFO - encoding the categorical variables
+2024-10-06 13:41:02,429 - INFO - label encoding for ordinal categorical variables
+2024-10-06 13:41:02,429 - INFO - Checking data types of columns for WOE encoding
+2024-10-06 13:41:02,429 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                   object
+CountryCode                     int64
+ProviderId                     object
+ProductId                      object
+ProductCategory                object
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 13:41:02,440 - INFO - Unique values in CurrencyCode: ['UGX']
+2024-10-06 13:41:02,449 - INFO - Unique values in ProviderId: ['ProviderId_6' 'ProviderId_4' 'ProviderId_1' 'ProviderId_5'
+ 'ProviderId_3' 'ProviderId_2']
+2024-10-06 13:41:02,458 - INFO - Unique values in ProductId: ['ProductId_10' 'ProductId_6' 'ProductId_1' 'ProductId_21' 'ProductId_3'
+ 'ProductId_15' 'ProductId_11' 'ProductId_19' 'ProductId_4' 'ProductId_5'
+ 'ProductId_20' 'ProductId_9' 'ProductId_24' 'ProductId_14' 'ProductId_2'
+ 'ProductId_13' 'ProductId_22' 'ProductId_8' 'ProductId_7' 'ProductId_27'
+ 'ProductId_12' 'ProductId_16' 'ProductId_23']
+2024-10-06 13:41:02,468 - INFO - Unique values in ProductCategory: ['airtime' 'financial_services' 'utility_bill' 'data_bundles' 'tv'
+ 'transport' 'ticket' 'movies' 'other']
+2024-10-06 13:41:02,517 - INFO - Data types after conversion:
+2024-10-06 13:41:02,517 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                     int8
+CountryCode                     int64
+ProviderId                       int8
+ProductId                        int8
+ProductCategory                  int8
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-06 13:41:02,524 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-06 13:41:02,714 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 13:41:02,717 - INFO - one-hot encoding for nominal variables
+2024-10-06 13:41:02,847 - INFO - constructing the RFMS scores
+2024-10-06 13:41:02,847 - INFO - Calculate Recency as days since last transaction
+2024-10-06 13:41:03,250 - INFO - visualizing the RFMS space
+2024-10-06 13:41:03,291 - INFO - assigning the good and bad labels
+2024-10-06 13:41:03,297 - INFO - calculating woe
+2024-10-06 13:41:03,297 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-06 13:41:03,302 - INFO - WoE results calculated successfully
+2024-10-06 13:41:30,974 - INFO - constructing the RFMS scores
+2024-10-06 13:41:30,974 - INFO - Calculate Recency as days since last transaction
+2024-10-06 13:41:31,003 - INFO - visualizing the RFMS space
+2024-10-06 13:41:31,039 - INFO - assigning the good and bad labels
+2024-10-06 13:41:31,039 - INFO - calculating woe
+2024-10-06 13:41:31,044 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-06 13:41:31,045 - INFO - WoE results calculated successfully
+2024-10-06 14:43:03,248 - INFO - performing the correlation matrix for the numeric features
+2024-10-06 14:46:01,118 - INFO - detecting outliers for numerical columns
