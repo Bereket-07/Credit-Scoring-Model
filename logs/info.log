@@ -1000,3 +1000,210 @@ dtype: object
 2024-10-06 13:41:31,045 - INFO - WoE results calculated successfully
 2024-10-06 14:43:03,248 - INFO - performing the correlation matrix for the numeric features
 2024-10-06 14:46:01,118 - INFO - detecting outliers for numerical columns
+2024-10-07 11:28:12,128 - INFO - loading the data
+2024-10-07 11:28:12,132 - INFO - the data is loding
+2024-10-07 11:28:12,659 - INFO - creating aggregate features
+2024-10-07 11:28:12,809 - INFO - encoding the categorical variables
+2024-10-07 11:28:12,811 - INFO - label encoding for ordinal categorical variables
+2024-10-07 11:28:12,811 - INFO - Checking data types of columns for WOE encoding
+2024-10-07 11:28:12,811 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                   object
+CountryCode                     int64
+ProviderId                     object
+ProductId                      object
+ProductCategory                object
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-07 11:28:12,826 - INFO - Unique values in CurrencyCode: ['UGX']
+2024-10-07 11:28:12,826 - INFO - Unique values in ProviderId: ['ProviderId_6' 'ProviderId_4' 'ProviderId_1' 'ProviderId_5'
+ 'ProviderId_3' 'ProviderId_2']
+2024-10-07 11:28:12,836 - INFO - Unique values in ProductId: ['ProductId_10' 'ProductId_6' 'ProductId_1' 'ProductId_21' 'ProductId_3'
+ 'ProductId_15' 'ProductId_11' 'ProductId_19' 'ProductId_4' 'ProductId_5'
+ 'ProductId_20' 'ProductId_9' 'ProductId_24' 'ProductId_14' 'ProductId_2'
+ 'ProductId_13' 'ProductId_22' 'ProductId_8' 'ProductId_7' 'ProductId_27'
+ 'ProductId_12' 'ProductId_16' 'ProductId_23']
+2024-10-07 11:28:12,846 - INFO - Unique values in ProductCategory: ['airtime' 'financial_services' 'utility_bill' 'data_bundles' 'tv'
+ 'transport' 'ticket' 'movies' 'other']
+2024-10-07 11:28:12,875 - INFO - Data types after conversion:
+2024-10-07 11:28:12,875 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                     int8
+CountryCode                     int64
+ProviderId                       int8
+ProductId                        int8
+ProductCategory                  int8
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-07 11:28:12,881 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-07 11:28:12,996 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-07 11:28:13,002 - INFO - one-hot encoding for nominal variables
+2024-10-07 11:28:13,056 - INFO - normalize the numerical features
+2024-10-07 11:28:13,109 - INFO - the result of the standardized numeical featuresis  
+      Amount     Value  Total_Transaction_Amount  Average_Transaction_Amount  \
+0 -0.046371 -0.072291                  0.170118                   -0.067623   
+1 -0.054643 -0.080251                  0.170118                   -0.067623   
+2 -0.050426 -0.076352                  0.165122                   -0.072568   
+3  0.107717  0.096648                  0.175567                   -0.008155   
+4 -0.059704 -0.075183                  0.175567                   -0.008155   
+
+   Transaction_Count  Std_Transaction_Amount  
+0          -0.311831               -0.167922  
+1          -0.311831               -0.167922  
+2          -0.444993               -0.201992  
+3          -0.404020               -0.009717  
+4          -0.404020               -0.009717  
+2024-10-07 11:28:13,118 - INFO - constructing the RFMS scores
+2024-10-07 11:28:13,126 - INFO - Calculate Recency as days since last transaction
+2024-10-07 11:28:13,356 - INFO - visualizing the RFMS space
+2024-10-07 11:28:13,416 - INFO - assigning the good and bad labels
+2024-10-07 11:28:13,416 - INFO - calculating woe
+2024-10-07 11:28:13,428 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-07 11:28:13,429 - INFO - WoE results calculated successfully
+2024-10-07 16:09:44,972 - INFO - importting the data 
+2024-10-07 16:09:44,975 - INFO - loading the data 
+2024-10-07 16:11:36,466 - INFO - spliting the data 
+2024-10-07 16:11:36,481 - INFO - error occured got an unexpected keyword argument 'startify'
+2024-10-07 16:12:43,122 - INFO - importting the data 
+2024-10-07 16:12:43,122 - INFO - loading the data 
+2024-10-07 16:12:43,722 - INFO - spliting the data 
+2024-10-07 16:14:38,169 - INFO - train the model
+2024-10-07 16:14:38,170 - INFO - Initializing the model
+2024-10-07 16:14:38,171 - INFO - training the model with our data
+2024-10-07 16:14:38,234 - ERROR - error occured could not convert string to float: 'TransactionId_1231'
+2024-10-07 16:17:50,542 - INFO - importting the data 
+2024-10-07 16:17:50,547 - INFO - loading the data 
+2024-10-07 16:17:51,081 - INFO - Preprocessing the data
+2024-10-07 16:17:51,133 - INFO - Data preprocessing completed
+2024-10-07 16:17:51,144 - INFO - spliting the data 
+2024-10-07 16:17:51,239 - INFO - train the model
+2024-10-07 16:17:51,240 - INFO - Initializing the model
+2024-10-07 16:17:51,241 - INFO - training the model with our data
+2024-10-07 16:17:51,247 - ERROR - error occured could not convert string to float: 'ChannelId_3'
+2024-10-07 16:18:28,572 - INFO - importting the data 
+2024-10-07 16:18:28,578 - INFO - loading the data 
+2024-10-07 16:18:29,497 - INFO - Preprocessing the data
+2024-10-07 16:18:29,497 - ERROR - Error occurred while preprocessing the data: "['ChannelId_3'] not found in axis"
+2024-10-07 16:18:29,515 - INFO - spliting the data 
+2024-10-07 16:18:29,517 - INFO - error occured 'NoneType' object has no attribute 'drop'
+2024-10-07 16:19:26,852 - INFO - importting the data 
+2024-10-07 16:19:26,852 - INFO - loading the data 
+2024-10-07 16:19:27,584 - INFO - Preprocessing the data
+2024-10-07 16:19:27,649 - INFO - Data preprocessing completed
+2024-10-07 16:19:27,664 - INFO - spliting the data 
+2024-10-07 16:19:27,752 - INFO - train the model
+2024-10-07 16:19:27,752 - INFO - Initializing the model
+2024-10-07 16:19:27,757 - INFO - training the model with our data
+2024-10-07 16:19:27,762 - ERROR - error occured could not convert string to float: 'ChannelId_3'
+2024-10-07 16:22:12,775 - INFO - importting the data 
+2024-10-07 16:22:12,778 - INFO - loading the data 
+2024-10-07 16:22:13,623 - INFO - Preprocessing the data
+2024-10-07 16:22:13,932 - INFO - Data preprocessing completed
+2024-10-07 16:22:13,942 - INFO - spliting the data 
+2024-10-07 16:22:14,035 - INFO - train the model
+2024-10-07 16:22:14,035 - INFO - Initializing the model
+2024-10-07 16:22:14,038 - INFO - training the model with our data
+2024-10-07 16:22:14,044 - ERROR - error occured Cannot cast DatetimeArray to dtype float64
+2024-10-07 16:23:44,729 - INFO - importting the data 
+2024-10-07 16:23:44,733 - INFO - loading the data 
+2024-10-07 16:23:45,486 - INFO - Preprocessing the data
+2024-10-07 16:23:45,554 - INFO - Extracting datetime features from 'TransactionStartTime'
+2024-10-07 16:23:45,948 - INFO - Data preprocessing completed
+2024-10-07 16:23:45,954 - INFO - spliting the data 
+2024-10-07 16:23:46,088 - INFO - train the model
+2024-10-07 16:23:46,088 - INFO - Initializing the model
+2024-10-07 16:23:46,088 - INFO - training the model with our data
+2024-10-07 16:23:46,160 - ERROR - error occured Input X contains NaN.
+LogisticRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+2024-10-07 16:29:02,289 - INFO - importting the data 
+2024-10-07 16:29:02,290 - INFO - loading the data 
+2024-10-07 16:29:03,267 - INFO - Preprocessing the data
+2024-10-07 16:29:03,341 - INFO - Extracting datetime features from 'TransactionStartTime'
+2024-10-07 16:29:03,688 - INFO - Data preprocessing completed
+2024-10-07 16:29:03,711 - INFO - spliting the data 
+2024-10-07 16:29:03,836 - INFO - train the model
+2024-10-07 16:29:03,837 - INFO - Initializing the model
+2024-10-07 16:29:03,841 - INFO - training the model with our data
+2024-10-07 16:32:16,697 - INFO - importting the data 
+2024-10-07 16:32:16,699 - INFO - loading the data 
+2024-10-07 16:32:17,303 - INFO - Preprocessing the data
+2024-10-07 16:32:17,358 - INFO - Extracting datetime features from 'TransactionStartTime'
+2024-10-07 16:32:17,574 - INFO - Data preprocessing completed
+2024-10-07 16:32:17,588 - INFO - spliting the data 
+2024-10-07 16:32:17,675 - INFO - train the model
+2024-10-07 16:32:17,830 - ERROR - error occured name 'X_test' is not defined
+2024-10-07 16:33:03,339 - INFO - importting the data 
+2024-10-07 16:33:03,341 - INFO - loading the data 
+2024-10-07 16:33:03,989 - INFO - Preprocessing the data
+2024-10-07 16:33:04,064 - INFO - Extracting datetime features from 'TransactionStartTime'
+2024-10-07 16:33:04,353 - INFO - Data preprocessing completed
+2024-10-07 16:33:04,359 - INFO - spliting the data 
+2024-10-07 16:33:04,437 - INFO - train the model
+2024-10-07 16:33:04,648 - INFO - Initializing the model
+2024-10-07 16:33:04,648 - INFO - training the model with our data
+2024-10-07 16:33:04,663 - ERROR - error occured y should be a 1d array, got an array of shape (19133, 42) instead.
+2024-10-07 16:33:53,460 - INFO - importting the data 
+2024-10-07 16:33:53,463 - INFO - loading the data 
+2024-10-07 16:33:54,181 - INFO - Preprocessing the data
+2024-10-07 16:33:54,238 - INFO - Extracting datetime features from 'TransactionStartTime'
+2024-10-07 16:33:54,754 - INFO - Data preprocessing completed
+2024-10-07 16:33:54,779 - INFO - spliting the data 
+2024-10-07 16:33:54,997 - INFO - train the model
+2024-10-07 16:33:55,461 - INFO - Initializing the model
+2024-10-07 16:33:55,471 - INFO - training the model with our data
+2024-10-07 16:35:33,520 - INFO - importting the data 
+2024-10-07 16:35:33,520 - INFO - loading the data 
+2024-10-07 16:35:34,161 - INFO - Preprocessing the data
+2024-10-07 16:35:34,211 - INFO - Extracting datetime features from 'TransactionStartTime'
+2024-10-07 16:35:34,450 - INFO - Data preprocessing completed
+2024-10-07 16:35:34,466 - INFO - spliting the data 
+2024-10-07 16:35:34,543 - INFO - train the model
+2024-10-07 16:35:34,736 - INFO - Initializing the model
+2024-10-07 16:35:34,736 - INFO - training the model with our data
+2024-10-07 16:36:18,699 - INFO - importting the data 
+2024-10-07 16:36:18,699 - INFO - loading the data 
+2024-10-07 16:36:19,277 - INFO - Preprocessing the data
+2024-10-07 16:36:19,321 - INFO - Extracting datetime features from 'TransactionStartTime'
+2024-10-07 16:36:19,564 - INFO - Data preprocessing completed
+2024-10-07 16:36:19,582 - INFO - spliting the data 
+2024-10-07 16:36:19,724 - INFO - train the model
+2024-10-07 16:36:19,930 - INFO - Initializing the model
+2024-10-07 16:36:19,930 - INFO - training the model with our data
+2024-10-07 16:36:26,323 - INFO - Evaluate the models
+2024-10-07 16:36:51,978 - INFO - Evaluate the models
+2024-10-07 16:38:27,382 - INFO - Evaluate the models
+2024-10-07 16:50:14,535 - INFO - importting the data 
+2024-10-07 16:50:14,535 - INFO - loading the data 
+2024-10-07 16:50:15,251 - INFO - Preprocessing the data
+2024-10-07 16:50:15,311 - INFO - Extracting datetime features from 'TransactionStartTime'
+2024-10-07 16:50:15,561 - INFO - Data preprocessing completed
+2024-10-07 16:50:15,576 - INFO - spliting the data 
+2024-10-07 16:50:15,641 - INFO - train the model
+2024-10-07 16:50:15,825 - INFO - Initializing the model
+2024-10-07 16:50:15,831 - INFO - training the model with our data
+2024-10-07 16:50:22,453 - INFO - Evaluate the models
+2024-10-07 16:50:22,933 - INFO - Evaluate the models
