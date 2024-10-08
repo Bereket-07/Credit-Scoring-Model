@@ -1,7 +1,7 @@
 import logging , os
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder , MinMaxScaler, StandardScaler
 from xverse.transformer import WOE
 import datetime as dt
 import matplotlib.pyplot  as plt
@@ -124,6 +124,30 @@ def encoding(data, target_variable='FraudResult'):
         logger.error(f"error occurred {e}")
         return data  # Return original data on error
 
+def Standardize_numeical_features(data):
+    logger.info("normalize the numerical features")
+    try:
+        numerical_features = ['Amount', 'Value', 'Total_Transaction_Amount', 'Average_Transaction_Amount', 'Transaction_Count', 'Std_Transaction_Amount']
+        # Normalize the Numerical Features (Range [0,1])
+        # Initialize MinMaxScalar for normalization
+        min_max_scalar =MinMaxScaler()
+
+        # # Apply normalization to the numerical columns
+        # data[numerical_features] = min_max_scalar.fit_transform(data[numerical_features])
+
+        # logger.info(f"the result of the nirmalized numeical featuresis  \n {data[numerical_features].head()}")
+
+        # Standardize the Numerical Featutres (Mean 0 , Standard Deviation 1)
+            #   initialize StandardScalar for standardixation
+        standard_scalar = StandardScaler()
+        # Apply standardization to the numerical columns
+        data[numerical_features] = standard_scalar.fit_transform(data[numerical_features])
+
+        # check the result 
+        logger.info(f"the result of the standardized numeical featuresis  \n {data[numerical_features].head()}")
+        return data
+    except Exception as e:
+        logger.error(f"error occured {e}")
 def constructinf_RFMS_scores(data):
     logger.info("constructing the RFMS scores")
     try:

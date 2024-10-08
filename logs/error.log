@@ -30,3 +30,14 @@
 2024-10-06 13:41:02,714 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
 2024-10-06 13:41:03,297 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
 2024-10-06 13:41:31,044 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-07 11:28:12,996 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-07 11:28:13,428 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-07 16:14:38,234 - ERROR - error occured could not convert string to float: 'TransactionId_1231'
+2024-10-07 16:17:51,247 - ERROR - error occured could not convert string to float: 'ChannelId_3'
+2024-10-07 16:18:29,497 - ERROR - Error occurred while preprocessing the data: "['ChannelId_3'] not found in axis"
+2024-10-07 16:19:27,762 - ERROR - error occured could not convert string to float: 'ChannelId_3'
+2024-10-07 16:22:14,044 - ERROR - error occured Cannot cast DatetimeArray to dtype float64
+2024-10-07 16:23:46,160 - ERROR - error occured Input X contains NaN.
+LogisticRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+2024-10-07 16:32:17,830 - ERROR - error occured name 'X_test' is not defined
+2024-10-07 16:33:04,663 - ERROR - error occured y should be a 1d array, got an array of shape (19133, 42) instead.
