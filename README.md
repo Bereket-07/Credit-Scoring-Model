@@ -88,7 +88,7 @@
 10. **Evaluation Metrics**: [![Metrics from Scikit-learn](https://img.shields.io/badge/Scikit--learn%20Metrics-AB8C3A?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/modules/classes.html#sklearn-metrics)
 11. **REST API**: [![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/) 
 12. **CI/CD**: [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)](https://github.com/features/actions)
-13. **Cloud Platform**: [![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)](https://aws.amazon.com/) / [![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)](https://www.heroku.com/) / [![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)](https://cloud.google.com/)
+13. **Cloud Platform**: [![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)](https://aws.amazon.com/) 
 14. **Version Control**: [![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)](https://git-scm.com/)
 15. **Environment Management**: [![Virtualenv](https://img.shields.io/badge/Virtualenv-3C873A?style=flat&logoColor=white)](https://virtualenv.pypa.io/en/latest/)
 ## Folder Organization
