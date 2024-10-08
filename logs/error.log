@@ -82,3 +82,5 @@ sklearn.utils._param_validation.InvalidParameterError: The 'n_estimators' parame
 2024-10-08 15:45:19,950 - ERROR - Error executing pipeline: "['Label'] not found in axis"
 2024-10-08 15:47:46,047 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
 2024-10-08 15:47:46,423 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-08 19:43:28,502 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-08 19:43:29,006 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
