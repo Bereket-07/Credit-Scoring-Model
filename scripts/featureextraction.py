@@ -205,9 +205,8 @@ def assign_good_and_bad_lables(data):
     # Define threshold
     threshold = data['RFMS_score'].median()
     
-    # Assign Good (1) and Bad (0) labels based on the threshold
-    data['Label'] = (data['RFMS_score'] > threshold).astype(int)
-
+    # Assign Good and Bad labels based on the threshold
+    data['Label'] = np.where(data['RFMS_score'] > threshold, 'Good', 'Bad')
 def calculate_woe(df, target, feature):
     """
     Calculate the Weight of Evidence (WoE) for a given feature.
