@@ -41,3 +41,46 @@
 LogisticRegression does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
 2024-10-07 16:32:17,830 - ERROR - error occured name 'X_test' is not defined
 2024-10-07 16:33:04,663 - ERROR - error occured y should be a 1d array, got an array of shape (19133, 42) instead.
+2024-10-07 23:38:45,771 - ERROR - error occured 
+All the 60 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+60 fits failed with the following error:
+Traceback (most recent call last):
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\model_selection\_validation.py", line 888, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\base.py", line 1466, in wrapper
+    estimator._validate_params()
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\base.py", line 666, in _validate_params
+    validate_parameter_constraints(
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\utils\_param_validation.py", line 95, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'n_estimators' parameter of RandomForestClassifier must be an int in the range [1, inf). Got '50,100,200' instead.
+
+2024-10-07 23:38:45,771 - ERROR - error occured 
+All the 60 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+60 fits failed with the following error:
+Traceback (most recent call last):
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\model_selection\_validation.py", line 888, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\base.py", line 1466, in wrapper
+    estimator._validate_params()
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\base.py", line 666, in _validate_params
+    validate_parameter_constraints(
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\utils\_param_validation.py", line 95, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'n_estimators' parameter of RandomForestClassifier must be an int in the range [1, inf). Got '50,100,200' instead.
+
+2024-10-08 15:45:19,950 - ERROR - Error executing pipeline: "['Label'] not found in axis"
+2024-10-08 15:47:46,047 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-08 15:47:46,423 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-08 19:43:28,502 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-08 19:43:29,006 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.

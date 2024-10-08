@@ -1207,3 +1207,326 @@ LogisticRegression does not accept missing values encoded as NaN natively. For s
 2024-10-07 16:50:15,831 - INFO - training the model with our data
 2024-10-07 16:50:22,453 - INFO - Evaluate the models
 2024-10-07 16:50:22,933 - INFO - Evaluate the models
+2024-10-07 23:31:38,715 - INFO - importting the data 
+2024-10-07 23:31:38,717 - INFO - loading the data 
+2024-10-07 23:31:39,558 - INFO - Preprocessing the data
+2024-10-07 23:31:39,617 - INFO - Extracting datetime features from 'TransactionStartTime'
+2024-10-07 23:31:39,867 - INFO - Data preprocessing completed
+2024-10-07 23:31:39,887 - INFO - spliting the data 
+2024-10-07 23:31:39,999 - INFO - train the model
+2024-10-07 23:31:40,187 - INFO - Initializing the model
+2024-10-07 23:31:40,192 - INFO - training the model with our data
+2024-10-07 23:31:47,928 - INFO - Evaluate the models
+2024-10-07 23:31:48,542 - INFO - Evaluate the models
+2024-10-07 23:32:17,999 - INFO - hyper parameter Tunning for Logistic Regression model
+2024-10-07 23:32:17,999 - INFO - hyper parameter Tunning for Logistic Regression model
+2024-10-07 23:32:18,001 - INFO - defining the logistic param grid
+2024-10-07 23:32:18,001 - INFO - defining the logistic param grid
+2024-10-07 23:32:18,001 - INFO - Applying the GridSearchCV for Logistic Regression model
+2024-10-07 23:32:18,001 - INFO - Applying the GridSearchCV for Logistic Regression model
+2024-10-07 23:32:18,004 - INFO - fiting the logistic grid search
+2024-10-07 23:32:18,004 - INFO - fiting the logistic grid search
+2024-10-07 23:33:28,077 - INFO - hyper parameter Tunning for Logistic Regression model
+2024-10-07 23:33:28,077 - INFO - hyper parameter Tunning for Logistic Regression model
+2024-10-07 23:33:28,081 - INFO - defining the logistic param grid
+2024-10-07 23:33:28,081 - INFO - defining the logistic param grid
+2024-10-07 23:33:28,082 - INFO - Applying the GridSearchCV for Logistic Regression model
+2024-10-07 23:33:28,082 - INFO - Applying the GridSearchCV for Logistic Regression model
+2024-10-07 23:33:28,083 - INFO - fiting the logistic grid search
+2024-10-07 23:33:28,083 - INFO - fiting the logistic grid search
+2024-10-07 23:36:03,528 - INFO - searching for the best logistic model estimator
+2024-10-07 23:36:03,528 - INFO - searching for the best logistic model estimator
+2024-10-07 23:38:44,859 - INFO - Applying the GridSearch for random forest hyperparameter tunning
+2024-10-07 23:38:44,859 - INFO - Applying the GridSearch for random forest hyperparameter tunning
+2024-10-07 23:38:44,861 - INFO - difining the random forest parameter grid
+2024-10-07 23:38:44,861 - INFO - difining the random forest parameter grid
+2024-10-07 23:38:44,864 - INFO - fiting the Random Forest model
+2024-10-07 23:38:44,864 - INFO - fiting the Random Forest model
+2024-10-07 23:38:44,865 - INFO - fiting the random Forest grid search
+2024-10-07 23:38:44,865 - INFO - fiting the random Forest grid search
+2024-10-07 23:38:45,771 - ERROR - error occured 
+All the 60 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+60 fits failed with the following error:
+Traceback (most recent call last):
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\model_selection\_validation.py", line 888, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\base.py", line 1466, in wrapper
+    estimator._validate_params()
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\base.py", line 666, in _validate_params
+    validate_parameter_constraints(
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\utils\_param_validation.py", line 95, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'n_estimators' parameter of RandomForestClassifier must be an int in the range [1, inf). Got '50,100,200' instead.
+
+2024-10-07 23:38:45,771 - ERROR - error occured 
+All the 60 fits failed.
+It is very likely that your model is misconfigured.
+You can try to debug the error by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+60 fits failed with the following error:
+Traceback (most recent call last):
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\model_selection\_validation.py", line 888, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\base.py", line 1466, in wrapper
+    estimator._validate_params()
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\base.py", line 666, in _validate_params
+    validate_parameter_constraints(
+  File "c:\Users\bekib\Desktop\10ACADAMY\WEEK-SIX\week-6\.week-6\Lib\site-packages\sklearn\utils\_param_validation.py", line 95, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'n_estimators' parameter of RandomForestClassifier must be an int in the range [1, inf). Got '50,100,200' instead.
+
+2024-10-07 23:45:59,976 - INFO - importting the data 
+2024-10-07 23:45:59,976 - INFO - loading the data 
+2024-10-07 23:46:00,503 - INFO - Preprocessing the data
+2024-10-07 23:46:00,546 - INFO - Extracting datetime features from 'TransactionStartTime'
+2024-10-07 23:46:00,735 - INFO - Data preprocessing completed
+2024-10-07 23:46:00,746 - INFO - spliting the data 
+2024-10-07 23:46:00,816 - INFO - train the model
+2024-10-07 23:46:00,966 - INFO - Initializing the model
+2024-10-07 23:46:00,967 - INFO - training the model with our data
+2024-10-07 23:46:06,552 - INFO - Evaluate the models
+2024-10-07 23:46:07,097 - INFO - Evaluate the models
+2024-10-07 23:46:28,716 - INFO - hyper parameter Tunning for Logistic Regression model
+2024-10-07 23:46:28,716 - INFO - hyper parameter Tunning for Logistic Regression model
+2024-10-07 23:46:28,716 - INFO - defining the logistic param grid
+2024-10-07 23:46:28,716 - INFO - defining the logistic param grid
+2024-10-07 23:46:28,721 - INFO - Applying the GridSearchCV for Logistic Regression model
+2024-10-07 23:46:28,721 - INFO - Applying the GridSearchCV for Logistic Regression model
+2024-10-07 23:46:28,721 - INFO - fiting the logistic grid search
+2024-10-07 23:46:28,721 - INFO - fiting the logistic grid search
+2024-10-07 23:49:01,123 - INFO - searching for the best logistic model estimator
+2024-10-07 23:49:01,123 - INFO - searching for the best logistic model estimator
+2024-10-07 23:49:01,142 - INFO - Applying the GridSearch for random forest hyperparameter tunning
+2024-10-07 23:49:01,142 - INFO - Applying the GridSearch for random forest hyperparameter tunning
+2024-10-07 23:49:01,143 - INFO - difining the random forest parameter grid
+2024-10-07 23:49:01,143 - INFO - difining the random forest parameter grid
+2024-10-07 23:49:01,146 - INFO - fiting the Random Forest model
+2024-10-07 23:49:01,146 - INFO - fiting the Random Forest model
+2024-10-07 23:49:01,147 - INFO - fiting the random Forest grid search
+2024-10-07 23:49:01,147 - INFO - fiting the random Forest grid search
+2024-10-08 00:05:25,601 - INFO - searching for the best random forest model estimator
+2024-10-08 00:05:25,601 - INFO - searching for the best random forest model estimator
+2024-10-08 10:41:03,280 - INFO - importting the data 
+2024-10-08 10:41:03,292 - INFO - loading the data 
+2024-10-08 10:41:04,291 - INFO - Preprocessing the data
+2024-10-08 10:41:04,374 - INFO - Extracting datetime features from 'TransactionStartTime'
+2024-10-08 10:41:04,630 - INFO - Data preprocessing completed
+2024-10-08 10:41:04,636 - INFO - spliting the data 
+2024-10-08 10:41:04,735 - INFO - train the model
+2024-10-08 10:41:04,897 - INFO - Initializing the model
+2024-10-08 10:41:04,913 - INFO - training the model with our data
+2024-10-08 10:41:12,464 - INFO - Evaluate the models
+2024-10-08 10:41:13,043 - INFO - Evaluate the models
+2024-10-08 10:41:40,988 - INFO - hyper parameter Tunning for Logistic Regression model
+2024-10-08 10:41:40,988 - INFO - hyper parameter Tunning for Logistic Regression model
+2024-10-08 10:41:40,993 - INFO - defining the logistic param grid
+2024-10-08 10:41:40,993 - INFO - defining the logistic param grid
+2024-10-08 10:41:40,993 - INFO - Applying the GridSearchCV for Logistic Regression model
+2024-10-08 10:41:40,993 - INFO - Applying the GridSearchCV for Logistic Regression model
+2024-10-08 10:41:41,004 - INFO - fiting the logistic grid search
+2024-10-08 10:41:41,004 - INFO - fiting the logistic grid search
+2024-10-08 10:46:18,592 - INFO - searching for the best logistic model estimator
+2024-10-08 10:46:18,592 - INFO - searching for the best logistic model estimator
+2024-10-08 10:46:18,624 - INFO - Applying the GridSearch for random forest hyperparameter tunning
+2024-10-08 10:46:18,624 - INFO - Applying the GridSearch for random forest hyperparameter tunning
+2024-10-08 10:46:18,624 - INFO - difining the random forest parameter grid
+2024-10-08 10:46:18,624 - INFO - difining the random forest parameter grid
+2024-10-08 10:46:18,624 - INFO - fiting the Random Forest model
+2024-10-08 10:46:18,624 - INFO - fiting the Random Forest model
+2024-10-08 10:46:18,624 - INFO - fiting the random Forest grid search
+2024-10-08 10:46:18,624 - INFO - fiting the random Forest grid search
+2024-10-08 11:08:27,609 - INFO - searching for the best random forest model estimator
+2024-10-08 11:08:27,609 - INFO - searching for the best random forest model estimator
+2024-10-08 11:08:27,891 - INFO - Evaluate the models
+2024-10-08 11:08:27,891 - INFO - Evaluate the models
+2024-10-08 11:08:28,377 - INFO - Evaluate the models
+2024-10-08 11:08:28,377 - INFO - Evaluate the models
+2024-10-08 15:45:19,937 - INFO - Executing the full pipeline
+2024-10-08 15:45:19,950 - ERROR - Error executing pipeline: "['Label'] not found in axis"
+2024-10-08 15:47:45,352 - INFO - loading the data
+2024-10-08 15:47:45,352 - INFO - the data is loding
+2024-10-08 15:47:45,782 - INFO - creating aggregate features
+2024-10-08 15:47:45,887 - INFO - encoding the categorical variables
+2024-10-08 15:47:45,887 - INFO - label encoding for ordinal categorical variables
+2024-10-08 15:47:45,887 - INFO - Checking data types of columns for WOE encoding
+2024-10-08 15:47:45,897 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                   object
+CountryCode                     int64
+ProviderId                     object
+ProductId                      object
+ProductCategory                object
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-08 15:47:45,904 - INFO - Unique values in CurrencyCode: ['UGX']
+2024-10-08 15:47:45,913 - INFO - Unique values in ProviderId: ['ProviderId_6' 'ProviderId_4' 'ProviderId_1' 'ProviderId_5'
+ 'ProviderId_3' 'ProviderId_2']
+2024-10-08 15:47:45,916 - INFO - Unique values in ProductId: ['ProductId_10' 'ProductId_6' 'ProductId_1' 'ProductId_21' 'ProductId_3'
+ 'ProductId_15' 'ProductId_11' 'ProductId_19' 'ProductId_4' 'ProductId_5'
+ 'ProductId_20' 'ProductId_9' 'ProductId_24' 'ProductId_14' 'ProductId_2'
+ 'ProductId_13' 'ProductId_22' 'ProductId_8' 'ProductId_7' 'ProductId_27'
+ 'ProductId_12' 'ProductId_16' 'ProductId_23']
+2024-10-08 15:47:45,916 - INFO - Unique values in ProductCategory: ['airtime' 'financial_services' 'utility_bill' 'data_bundles' 'tv'
+ 'transport' 'ticket' 'movies' 'other']
+2024-10-08 15:47:45,946 - INFO - Data types after conversion:
+2024-10-08 15:47:45,946 - INFO - TransactionId                  object
+BatchId                        object
+AccountId                      object
+SubscriptionId                 object
+CustomerId                     object
+CurrencyCode                     int8
+CountryCode                     int64
+ProviderId                       int8
+ProductId                        int8
+ProductCategory                  int8
+ChannelId                      object
+Amount                        float64
+Value                           int64
+TransactionStartTime           object
+PricingStrategy                 int64
+FraudResult                     int64
+Total_Transaction_Amount      float64
+Average_Transaction_Amount    float64
+Transaction_Count               int64
+Std_Transaction_Amount        float64
+dtype: object
+2024-10-08 15:47:45,946 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-08 15:47:46,047 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-08 15:47:46,047 - INFO - one-hot encoding for nominal variables
+2024-10-08 15:47:46,119 - INFO - normalize the numerical features
+2024-10-08 15:47:46,163 - INFO - the result of the standardized numeical featuresis  
+      Amount     Value  Total_Transaction_Amount  Average_Transaction_Amount  \
+0 -0.046371 -0.072291                  0.170118                   -0.067623   
+1 -0.054643 -0.080251                  0.170118                   -0.067623   
+2 -0.050426 -0.076352                  0.165122                   -0.072568   
+3  0.107717  0.096648                  0.175567                   -0.008155   
+4 -0.059704 -0.075183                  0.175567                   -0.008155   
+
+   Transaction_Count  Std_Transaction_Amount  
+0          -0.311831               -0.167922  
+1          -0.311831               -0.167922  
+2          -0.444993               -0.201992  
+3          -0.404020               -0.009717  
+4          -0.404020               -0.009717  
+2024-10-08 15:47:46,180 - INFO - constructing the RFMS scores
+2024-10-08 15:47:46,181 - INFO - Calculate Recency as days since last transaction
+2024-10-08 15:47:46,363 - INFO - visualizing the RFMS space
+2024-10-08 15:47:46,404 - INFO - assigning the good and bad labels
+2024-10-08 15:47:46,423 - INFO - calculating woe
+2024-10-08 15:47:46,423 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-08 15:47:46,430 - INFO - WoE results calculated successfully
+2024-10-08 19:42:32,908 - INFO - extracing some features
+2024-10-08 19:43:26,146 - INFO - loading the data
+2024-10-08 19:43:26,151 - INFO - the data is loding
+2024-10-08 19:43:27,184 - INFO - creating aggregate features
+2024-10-08 19:43:27,417 - INFO - extracing some features
+2024-10-08 19:43:28,066 - INFO - encoding the categorical variables
+2024-10-08 19:43:28,079 - INFO - label encoding for ordinal categorical variables
+2024-10-08 19:43:28,083 - INFO - Checking data types of columns for WOE encoding
+2024-10-08 19:43:28,087 - INFO - TransactionId                              object
+BatchId                                    object
+AccountId                                  object
+SubscriptionId                             object
+CustomerId                                 object
+CurrencyCode                               object
+CountryCode                                 int64
+ProviderId                                 object
+ProductId                                  object
+ProductCategory                            object
+ChannelId                                  object
+Amount                                    float64
+Value                                       int64
+TransactionStartTime          datetime64[ns, UTC]
+PricingStrategy                             int64
+FraudResult                                 int64
+Total_Transaction_Amount                  float64
+Average_Transaction_Amount                float64
+Transaction_Count                           int64
+Std_Transaction_Amount                    float64
+Transaction_Hour                            int32
+Transaction_Day                             int32
+Transaction_Month                           int32
+Transaction_Year                            int32
+dtype: object
+2024-10-08 19:43:28,095 - INFO - Unique values in CurrencyCode: ['UGX']
+2024-10-08 19:43:28,127 - INFO - Unique values in ProviderId: ['ProviderId_6' 'ProviderId_4' 'ProviderId_1' 'ProviderId_5'
+ 'ProviderId_3' 'ProviderId_2']
+2024-10-08 19:43:28,154 - INFO - Unique values in ProductId: ['ProductId_10' 'ProductId_6' 'ProductId_1' 'ProductId_21' 'ProductId_3'
+ 'ProductId_15' 'ProductId_11' 'ProductId_19' 'ProductId_4' 'ProductId_5'
+ 'ProductId_20' 'ProductId_9' 'ProductId_24' 'ProductId_14' 'ProductId_2'
+ 'ProductId_13' 'ProductId_22' 'ProductId_8' 'ProductId_7' 'ProductId_27'
+ 'ProductId_12' 'ProductId_16' 'ProductId_23']
+2024-10-08 19:43:28,166 - INFO - Unique values in ProductCategory: ['airtime' 'financial_services' 'utility_bill' 'data_bundles' 'tv'
+ 'transport' 'ticket' 'movies' 'other']
+2024-10-08 19:43:28,255 - INFO - Data types after conversion:
+2024-10-08 19:43:28,266 - INFO - TransactionId                              object
+BatchId                                    object
+AccountId                                  object
+SubscriptionId                             object
+CustomerId                                 object
+CurrencyCode                                 int8
+CountryCode                                 int64
+ProviderId                                   int8
+ProductId                                    int8
+ProductCategory                              int8
+ChannelId                                  object
+Amount                                    float64
+Value                                       int64
+TransactionStartTime          datetime64[ns, UTC]
+PricingStrategy                             int64
+FraudResult                                 int64
+Total_Transaction_Amount                  float64
+Average_Transaction_Amount                float64
+Transaction_Count                           int64
+Std_Transaction_Amount                    float64
+Transaction_Hour                            int32
+Transaction_Day                             int32
+Transaction_Month                           int32
+Transaction_Year                            int32
+dtype: object
+2024-10-08 19:43:28,271 - INFO - applying WOE encoding to certain categorical variables...
+2024-10-08 19:43:28,502 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-08 19:43:28,509 - INFO - one-hot encoding for nominal variables
+2024-10-08 19:43:28,640 - INFO - normalize the numerical features
+2024-10-08 19:43:28,768 - INFO - the result of the standardized numeical featuresis  
+      Amount     Value  Total_Transaction_Amount  Average_Transaction_Amount  \
+0 -0.046371 -0.072291                  0.170118                   -0.067623   
+1 -0.054643 -0.080251                  0.170118                   -0.067623   
+2 -0.050426 -0.076352                  0.165122                   -0.072568   
+3  0.107717  0.096648                  0.175567                   -0.008155   
+4 -0.059704 -0.075183                  0.175567                   -0.008155   
+
+   Transaction_Count  Std_Transaction_Amount  
+0          -0.311831               -0.167922  
+1          -0.311831               -0.167922  
+2          -0.444993               -0.201992  
+3          -0.404020               -0.009717  
+4          -0.404020               -0.009717  
+2024-10-08 19:43:28,801 - INFO - constructing the RFMS scores
+2024-10-08 19:43:28,809 - INFO - Calculate Recency as days since last transaction
+2024-10-08 19:43:28,854 - INFO - visualizing the RFMS space
+2024-10-08 19:43:28,974 - INFO - assigning the good and bad labels
+2024-10-08 19:43:29,000 - INFO - calculating woe
+2024-10-08 19:43:29,006 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-08 19:43:29,006 - INFO - WoE results calculated successfully
+2024-10-08 19:56:10,211 - INFO - Evaluate the models
+2024-10-08 19:56:10,211 - INFO - Evaluate the models
