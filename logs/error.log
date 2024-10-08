@@ -1,0 +1,32 @@
+2024-10-03 13:26:24,144 - ERROR - error occured num must be an integer with 1 <= num <= 9, not 10
+2024-10-05 12:42:36,762 - ERROR - error occured num must be an integer with 1 <= num <= 9, not 10
+2024-10-06 11:51:59,853 - ERROR - error occured num must be an integer with 1 <= num <= 9, not 10
+2024-10-06 12:25:02,447 - ERROR - error occured 'DataFrame' object has no attribute 'rest_index'
+2024-10-06 12:32:13,276 - ERROR - Error during WOE transformation: "None of [Index(['CurrencyCode', 'ProviderId', 'ProductId', 'ProductCategory'], dtype='object')] are in the [columns]"
+2024-10-06 12:35:21,729 - ERROR - Error during WOE transformation: The input feature(s) should be numeric type. Some of the input features                             has character values in it. Please use a encoder before performing monotonic operations.
+2024-10-06 12:35:31,263 - ERROR - Error during WOE transformation: The input feature(s) should be numeric type. Some of the input features                             has character values in it. Please use a encoder before performing monotonic operations.
+2024-10-06 12:35:31,268 - ERROR - error occurred "None of [Index(['ChannelId'], dtype='object')] are in the [columns]"
+2024-10-06 12:35:34,917 - ERROR - Error during WOE transformation: The input feature(s) should be numeric type. Some of the input features                             has character values in it. Please use a encoder before performing monotonic operations.
+2024-10-06 12:35:34,922 - ERROR - error occurred "None of [Index(['ChannelId'], dtype='object')] are in the [columns]"
+2024-10-06 12:41:53,403 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 12:42:49,384 - ERROR - Error during WOE transformation: The input feature(s) should be numeric type. Some of the input features                             has character values in it. Please use a encoder before performing monotonic operations.
+2024-10-06 12:45:24,510 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 12:47:50,427 - ERROR - Column CurrencyCode is not numeric. Converting...
+2024-10-06 12:47:50,601 - ERROR - Column ProviderId is not numeric. Converting...
+2024-10-06 12:47:50,752 - ERROR - Column ProductId is not numeric. Converting...
+2024-10-06 12:47:50,919 - ERROR - Column ProductCategory is not numeric. Converting...
+2024-10-06 12:47:51,712 - ERROR - Error during WOE transformation: 'ProviderId'
+2024-10-06 12:50:55,678 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 13:18:18,792 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 13:18:19,091 - ERROR - error occured unsupported operand type(s) for -: 'Timestamp' and 'str'
+2024-10-06 13:24:03,668 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 13:24:04,418 - ERROR - error occured Cannot subtract tz-naive and tz-aware datetime-like objects
+2024-10-06 13:28:08,223 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 13:28:09,176 - ERROR - error occurred func is expected but received tuple in **kwargs.
+2024-10-06 13:38:24,130 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 13:38:25,062 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-06 13:40:33,695 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 13:40:34,611 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-06 13:41:02,714 - ERROR - Error during WOE transformation: module 'pandas.core.algorithms' has no attribute 'quantile'
+2024-10-06 13:41:03,297 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
+2024-10-06 13:41:31,044 - ERROR - Error in calculating WoE: func is expected but received tuple in **kwargs.
